@@ -1,0 +1,25 @@
+objparser.h
+objparser.cpp
+
+Copyright © Jonathan Karlsson 2012
+
+A loader class for the Wavefront OBJ model format. Very light-
+weight. Data is mostly stored in raw arrays intended to be
+converted to native internal formats.
+
+WavefrontOBJ.h
+WavefrontOBJ.cpp
+
+Copyright © Jonathan Karlsson 2012
+
+Newer loader class for the Wavefront OBJ model format. Uses
+STL for faster load times and has a more encapsulated design
+than previous version with automatic destruction when object
+falls out of scope.
+
+---
+
+Code may be used freely for commercial and non-commercial purposes.
+Author retains his moral rights under the applicable copyright laws
+(i.e. credit the author where credit is due).
+
